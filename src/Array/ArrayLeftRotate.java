@@ -9,15 +9,21 @@ public class ArrayLeftRotate {
         System.out.println(Arrays.toString(arr));
       //  int[] rotateByOne = rotateByOne(arr, n);
       //  System.out.println(Arrays.toString(rotateByOne));
-        int d=3;
+        int d=12;
+        if(d>n){
+            d=d%n;
+        }
 
         System.out.println("Rotate By "+d+" position");
 
       //  int[] leftRotateByD = leftRotateByD(arr, n,d );
       //  System.out.println(Arrays.toString(leftRotateByD));
 
-        int[] leftRotateByd = leftRotateByd(arr, n, d);
-        System.out.println(Arrays.toString(leftRotateByd));
+       // int[] leftRotateByd = leftRotateByd(arr, n, d);
+        //System.out.println(Arrays.toString(leftRotateByd));
+
+        int[] rotateByD = rotateByD(arr, n, d);
+        System.out.println(Arrays.toString(rotateByD));
 
     }
     // left rotate by One [O(n)]
@@ -56,7 +62,24 @@ public class ArrayLeftRotate {
 
     }
 
+    static int[] rotateByD(int arr[],int n , int d)
+    {
+        reverse(arr,0,d-1);
+        reverse(arr,d,n-1);
+        reverse(arr,0,n-1);
 
+        return arr;
+    }
+
+    private static void reverse(int[] arr, int low, int high) {
+        while(low<high){
+            int temp=arr[low];
+            arr[low]=arr[high];
+            arr[high]=temp;
+            low++;
+            high--;
+        }
+    }
 
 
 }
