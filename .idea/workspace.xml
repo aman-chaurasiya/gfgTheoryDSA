@@ -103,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayLeftRotate" />
-        <item itemvalue="Application.MoveZerosToEnd" />
         <item itemvalue="Application.Toggle" />
-        <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.SecondLargest" />
+        <item itemvalue="Application.ReverseArray" />
+        <item itemvalue="Application.MoveZerosToEnd" />
+        <item itemvalue="Application.ArrayLeftRotate" />
       </list>
     </recent_temporary>
   </component>
