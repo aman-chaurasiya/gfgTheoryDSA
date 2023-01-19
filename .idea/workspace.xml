@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efd55909-9571-437c-be49-c60f1c8c5b3b" name="Changes" comment="initial commit">
+    <list default="true" id="efd55909-9571-437c-be49-c60f1c8c5b3b" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/Array/FreQuencyInSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/MaxximumDifference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/POTD/Palindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Array/ArrayLeftRotate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/ArrayLeftRotate.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +37,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayLeftRotate">
-    <configuration name="ArrayLeftRotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.ArrayLeftRotate" />
+  <component name="RunManager" selected="Application.FreQuencyInSortedArray">
+    <configuration name="FreQuencyInSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.FreQuencyInSortedArray" />
       <module name="GfgTheoryDSA" />
       <extension name="coverage">
         <pattern>
@@ -49,8 +51,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZerosToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.MoveZerosToEnd" />
+    <configuration name="MaxximumDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.MaxximumDifference" />
       <module name="GfgTheoryDSA" />
       <extension name="coverage">
         <pattern>
@@ -62,12 +64,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.ReverseArray" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="POTD.Palindrome" />
       <module name="GfgTheoryDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="POTD.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FreQuencyInSortedArray" />
+        <item itemvalue="Application.MaxximumDifference" />
+        <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.Toggle" />
         <item itemvalue="Application.SecondLargest" />
-        <item itemvalue="Application.ReverseArray" />
-        <item itemvalue="Application.MoveZerosToEnd" />
-        <item itemvalue="Application.ArrayLeftRotate" />
       </list>
     </recent_temporary>
   </component>
@@ -165,6 +167,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Array/FreQuencyInSortedArray.java</url>
+          <line>9</line>
+          <properties class="Array.FreQuencyInSortedArray" method="printFerq">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
