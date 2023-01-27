@@ -1,13 +1,16 @@
 package Array;
 
+import java.util.Arrays;
+
 public class FreQuencyInSortedArray {
     public static void main(String[] args) {
-        int []arr={10,20,30};
+        int []arr={10,10,10,20,20,30,40,50,10};
         int n= arr.length;
         printFerq(arr,n);
 
     }
     static void printFerq(int arr[],int n){
+        Arrays.sort(arr);
         int freq=1,i=1;
         while(i<n){
             while(i<n && arr[i]==arr[i-1]){
