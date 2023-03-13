@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="efd55909-9571-437c-be49-c60f1c8c5b3b" name="Changes" comment="done" />
+    <list default="true" id="efd55909-9571-437c-be49-c60f1c8c5b3b" name="Changes" comment="done">
+      <change afterPath="$PROJECT_DIR$/src/Array/KadensAlgo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Pattern/VShapedPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/Pattern/fibonacciPattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/SlidingWindow/MaxSumOfKcOnsicutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Array/SubArrayWithGivenSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCode/PascalTrisngle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StreamApi/SortedInJava8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strings/Substring1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Array/MaximumSumSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Array/MaximumSumSubArray.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,9 +43,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MaximumSumSubArray">
-    <configuration name="MaximumSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.MaximumSumSubArray" />
+  <component name="RunManager" selected="Application.fibonacciPattern">
+    <configuration name="KadensAlgo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.KadensAlgo" />
       <module name="GfgTheoryDSA" />
       <extension name="coverage">
         <pattern>
@@ -46,8 +57,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxximumConsicutiveOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.MaxximumConsicutiveOne" />
+    <configuration name="StarPattern12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Pattern.StarPattern12" />
+      <module name="GfgTheoryDSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Array.Pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubArrayWithGivenSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.SubArrayWithGivenSum" />
       <module name="GfgTheoryDSA" />
       <extension name="coverage">
         <pattern>
@@ -59,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockBuyAndSell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.StockBuyAndSell" />
+    <configuration name="VShapedPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Pattern.VShapedPattern" />
       <module name="GfgTheoryDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="Array.Pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,25 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockBuyOnce_SellOnce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.StockBuyOnce_SellOnce" />
+    <configuration name="fibonacciPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Array.Pattern.fibonacciPattern" />
       <module name="GfgTheoryDSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TrappingRainAndWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Array.TrappingRainAndWater" />
-      <module name="GfgTheoryDSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Array.*" />
+          <option name="PATTERN" value="Array.Pattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MaximumSumSubArray" />
-        <item itemvalue="Application.MaxximumConsicutiveOne" />
-        <item itemvalue="Application.TrappingRainAndWater" />
-        <item itemvalue="Application.StockBuyAndSell" />
-        <item itemvalue="Application.StockBuyOnce_SellOnce" />
+        <item itemvalue="Application.fibonacciPattern" />
+        <item itemvalue="Application.StarPattern12" />
+        <item itemvalue="Application.VShapedPattern" />
+        <item itemvalue="Application.KadensAlgo" />
+        <item itemvalue="Application.SubArrayWithGivenSum" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674840241437</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="done">
+      <created>1674840307861</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674840307861</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +215,65 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Array/MaximumSumSubArray.java</url>
+          <line>10</line>
+          <properties class="Array.MaximumSumSubArray" method="maxSumSubArray1">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Array/MergeSortedArray.java</url>
+          <line>15</line>
+          <properties class="Array.MergeSortedArray" method="merge">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/LeetCode/PascalTrisngle.java</url>
+          <line>28</line>
+          <properties class="LeetCode.PascalTrisngle" method="factorial">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Array/SubArrayWithGivenSum.java</url>
+          <line>25</line>
+          <properties class="Array.SubArrayWithGivenSum" method="subarray_Sum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Array/KadensAlgo.java</url>
+          <line>9</line>
+          <properties class="Array.KadensAlgo" method="maxSumSubArray">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Array/Pattern/VShapedPattern.java</url>
+          <line>10</line>
+          <properties class="Array.Pattern.VShapedPattern" method="pattern">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LeetCode/PascalTrisngle.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
